@@ -14,7 +14,7 @@ export function GET() {
 	return rss({
 		title: 'Apec说说看',
 		description: '记录工程师 Apec 的不枯燥生活',
-		site: '',
+		site: 'https://www.bing.com',
 		customData: `<image><url>https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png</url></image>`,
 		items: posts.map((item) => {
 			const url = item.url;
